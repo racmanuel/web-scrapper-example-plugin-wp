@@ -16,10 +16,10 @@ include_once 'simple_html_dom.php';
 function web_scrapper(){
 
     /**
-     * Definimos la URL
+     * URL de Pruebas
+     * 
      */
-    $url = 'http://www.trimer.com.mx/accesorios?sort=pd.name&order=ASC&limit=300';
-    //$url = 'http://www.trimer.com.mx/motopartes?sort=pd.name&order=ASC&limit=1850';
+    $url = 'http://www.---.com/accesorios?sort=pd.name&order=ASC&limit=300';
 
     /**
      * Obtenemos con Simple HTML DOM la URL
